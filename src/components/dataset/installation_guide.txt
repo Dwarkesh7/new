@@ -1,0 +1,83 @@
+ChemFinder Installation Guide
+=======================
+
+1. Project Setup
+---------------
+# Create a new Vite project with React
+npm create vite@latest chemfinder -- --template react
+
+# Navigate to project directory
+cd chemfinder
+
+2. Dependencies Installation
+--------------------------
+# Install all required dependencies
+npm install react react-dom react-router-dom bootstrap firebase axios @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons xlsx react-bootstrap
+
+3. Development Dependencies
+-------------------------
+npm install -D @types/react @types/react-dom @vitejs/plugin-react eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh vite
+
+4. Package Versions (package.json)
+--------------------------------
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "bootstrap": "^5.3.2",
+    "firebase": "^10.7.0",
+    "axios": "^1.6.2",
+    "react-router-dom": "^6.20.0",
+    "xlsx": "^0.18.5",
+    "react-bootstrap": "^2.9.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "vite": "^5.0.0"
+  }
+}
+
+5. Running the Application
+-------------------------
+# Development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+6. Configuration Files
+---------------------
+# vite.config.js
+- Added CSV file support with assetsInclude: ['**/*.csv']
+
+7. Environment Setup
+-------------------
+- Node.js version: 14.x or higher recommended
+- npm version: 6.x or higher recommended
+
+8. Additional Setup Required
+--------------------------
+1. Firebase Configuration:
+   - Create a Firebase project
+   - Enable Email/Password authentication
+   - Add Firebase configuration to src/config/firebase.js
+
+2. Weather API:
+   - Sign up for a weather API service (e.g., OpenWeatherMap)
+   - Add API key to src/config/weatherConfig.js
+
+3. Data:
+   - Place your chemical dataset CSV file in src/components/dataset/
+
+Note: Make sure to replace all placeholder API keys and configuration values with your actual credentials before running the application. 

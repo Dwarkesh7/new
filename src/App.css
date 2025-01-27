@@ -1,0 +1,233 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Navigation */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #0d6efd !important;
+}
+
+/* Cards */
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chemical-card {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.chemical-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.chemical-card .badge {
+  font-weight: 500;
+  padding: 0.5em 0.8em;
+}
+
+/* Weather Widget */
+.weather-widget {
+  background: linear-gradient(135deg, #0d6efd 0%, #0dcaf0 100%);
+  color: white;
+  border-radius: 8px;
+}
+
+.weather-widget .card-body {
+  padding: 1.5rem;
+}
+
+/* Search Bar */
+.search-bar-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar-container .input-group {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-bar-container .form-control {
+  border: none;
+  padding: 0.75rem 1rem;
+}
+
+.search-bar-container .btn {
+  padding: 0.75rem 1.5rem;
+}
+
+/* Filter Section */
+.filter-card {
+  border-radius: 12px !important;
+  background: #ffffff;
+}
+
+.filter-card .card-title {
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.filter-card .form-label {
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-card .form-control,
+.filter-card .form-select {
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background-color: #f8f9fa;
+}
+
+.filter-card .form-control:focus,
+.filter-card .form-select:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+  border-color: #0d6efd;
+}
+
+.filter-card .form-check-input {
+  cursor: pointer;
+}
+
+.filter-card .form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.filter-card .btn-outline-secondary {
+  border-color: #e9ecef;
+  color: #6c757d;
+}
+
+.filter-card .btn-outline-secondary:hover {
+  background-color: #f8f9fa;
+  border-color: #dee2e6;
+  color: #495057;
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 1rem;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .sticky-sidebar {
+    position: static;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Badges */
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+/* Tables */
+.table td {
+  vertical-align: middle;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0b5ed7;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chemical-card {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Loading Spinner */
+.spinner-border {
+  color: #0d6efd;
+  width: 3rem;
+  height: 3rem;
+}

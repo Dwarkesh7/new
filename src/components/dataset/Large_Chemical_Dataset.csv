@@ -1,0 +1,31 @@
+Vendor Name,Chemical Name,Chemical Formula,CAS Number,Grade/Type,Purity,Price per kg (₹),Lead Time (days),Stock Availability,Certifications,Hazard Classification,Sustainability Score,Customer Rating
+Vendor A,Sodium Chloride,NaCl,7647-14-5,Industrial Grade,99%,50,7,In Stock,"ISO 9001, REACH",Non-hazardous,80,4.5
+Vendor A,Acetone,C3H6O,67-64-1,Pharmaceutical Grade,98%,125,10,Low Stock (50 kg),"FDA, GMP",Flammable,65,4.2
+Vendor A,Calcium Carbonate,CaCO3,471-34-1,Food Grade,99.5%,75,5,In Stock,"ISO 9001, Kosher",Non-hazardous,90,4.8
+Vendor A,Ethanol,C2H5OH,64-17-5,Lab Grade,99.9%,100,12,In Stock,ISO 14001,Flammable,75,4.6
+Vendor A,Hydrochloric Acid,HCl,7647-01-0,Technical Grade,98.5%,80,8,Out of Stock,"GMP, Kosher",Corrosive,70,4.3
+Vendor A,Sulfuric Acid,H2SO4,7664-93-9,Industrial Grade,98%,70,6,In Stock,ISO 9001,Corrosive,85,4.7
+Vendor A,Benzene,C6H6,71-43-2,Lab Grade,99.8%,150,14,Low Stock (100 kg),FDA,Flammable,60,4.1
+Vendor A,Methanol,CH3OH,67-56-1,Technical Grade,98.2%,60,7,In Stock,REACH,Toxic,78,4.4
+Vendor A,Ammonia,NH3,7664-41-7,Pharmaceutical Grade,99.7%,90,9,In Stock,"ISO 9001, GMP",Toxic,82,4.9
+Vendor A,Potassium Chloride,KCl,7447-40-7,Industrial Grade,98%,85,10,In Stock,ISO 14001,Non-hazardous,88,4.6
+Vendor B,Sodium Chloride,NaCl,7647-14-5,Industrial Grade,99%,50,7,In Stock,"ISO 9001, REACH",Non-hazardous,80,4.5
+Vendor B,Acetone,C3H6O,67-64-1,Pharmaceutical Grade,98%,125,10,Low Stock (50 kg),"FDA, GMP",Flammable,65,4.2
+Vendor B,Calcium Carbonate,CaCO3,471-34-1,Food Grade,99.5%,75,5,In Stock,"ISO 9001, Kosher",Non-hazardous,90,4.8
+Vendor B,Ethanol,C2H5OH,64-17-5,Lab Grade,99.9%,100,12,In Stock,ISO 14001,Flammable,75,4.6
+Vendor B,Hydrochloric Acid,HCl,7647-01-0,Technical Grade,98.5%,80,8,Out of Stock,"GMP, Kosher",Corrosive,70,4.3
+Vendor B,Sulfuric Acid,H2SO4,7664-93-9,Industrial Grade,98%,70,6,In Stock,ISO 9001,Corrosive,85,4.7
+Vendor B,Benzene,C6H6,71-43-2,Lab Grade,99.8%,150,14,Low Stock (100 kg),FDA,Flammable,60,4.1
+Vendor B,Methanol,CH3OH,67-56-1,Technical Grade,98.2%,60,7,In Stock,REACH,Toxic,78,4.4
+Vendor B,Ammonia,NH3,7664-41-7,Pharmaceutical Grade,99.7%,90,9,In Stock,"ISO 9001, GMP",Toxic,82,4.9
+Vendor B,Potassium Chloride,KCl,7447-40-7,Industrial Grade,98%,85,10,In Stock,ISO 14001,Non-hazardous,88,4.6
+Vendor C,Sodium Chloride,NaCl,7647-14-5,Industrial Grade,99%,50,7,In Stock,"ISO 9001, REACH",Non-hazardous,80,4.5
+Vendor C,Acetone,C3H6O,67-64-1,Pharmaceutical Grade,98%,125,10,Low Stock (50 kg),"FDA, GMP",Flammable,65,4.2
+Vendor C,Calcium Carbonate,CaCO3,471-34-1,Food Grade,99.5%,75,5,In Stock,"ISO 9001, Kosher",Non-hazardous,90,4.8
+Vendor C,Ethanol,C2H5OH,64-17-5,Lab Grade,99.9%,100,12,In Stock,ISO 14001,Flammable,75,4.6
+Vendor C,Hydrochloric Acid,HCl,7647-01-0,Technical Grade,98.5%,80,8,Out of Stock,"GMP, Kosher",Corrosive,70,4.3
+Vendor C,Sulfuric Acid,H2SO4,7664-93-9,Industrial Grade,98%,70,6,In Stock,ISO 9001,Corrosive,85,4.7
+Vendor C,Benzene,C6H6,71-43-2,Lab Grade,99.8%,150,14,Low Stock (100 kg),FDA,Flammable,60,4.1
+Vendor C,Methanol,CH3OH,67-56-1,Technical Grade,98.2%,60,7,In Stock,REACH,Toxic,78,4.4
+Vendor C,Ammonia,NH3,7664-41-7,Pharmaceutical Grade,99.7%,90,9,In Stock,"ISO 9001, GMP",Toxic,82,4.9
+Vendor C,Potassium Chloride,KCl,7447-40-7,Industrial Grade,98%,85,10,In Stock,ISO 14001,Non-hazardous,88,4.6

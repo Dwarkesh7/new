@@ -1,0 +1,66 @@
+# 1. Create the Vite project
+npm create vite@latest chemfinder -- --template react
+
+# 2. Navigate to project directory
+cd chemfinder
+
+# 3. Initialize npm and install base dependencies
+npm install
+
+# 4. Install React and core dependencies
+npm install react@latest react-dom@latest
+npm install react-router-dom@latest
+npm install bootstrap@latest react-bootstrap@latest
+
+# 5. Install Firebase for authentication
+npm install firebase@latest
+
+# 6. Install Axios for API calls
+npm install axios@latest
+
+# 7. Install FontAwesome icons
+npm install @fortawesome/react-fontawesome@latest
+npm install @fortawesome/free-solid-svg-icons@latest
+
+# 8. Install XLSX for Excel handling
+npm install xlsx@latest
+
+# 9. Install development dependencies
+npm install -D @vitejs/plugin-react@latest
+npm install -D @types/react@latest @types/react-dom@latest
+npm install -D eslint@latest
+npm install -D eslint-plugin-react@latest
+npm install -D eslint-plugin-react-hooks@latest
+npm install -D eslint-plugin-react-refresh@latest
+
+# 10. Clear npm cache (if you encounter any issues)
+npm cache clean --force
+
+# 11. Remove package-lock.json and node_modules (if you encounter any issues)
+rm -rf node_modules
+rm package-lock.json
+
+# 12. Reinstall all dependencies
+npm install
+
+# 13. Start the development server
+npm run dev
+
+# Note: If you encounter any ENOENT or permission errors on Windows, run:
+# npm cache clean --force
+# del /s /q node_modules
+# del package-lock.json
+# npm install
+
+# Additional commands if needed:
+# Build for production:
+# npm run build
+
+# Preview production build:
+# npm run preview
+
+# If you get any peer dependency warnings, you can fix them with:
+npm install --legacy-peer-deps
+
+# If you need to update all dependencies to their latest versions:
+npm update 
