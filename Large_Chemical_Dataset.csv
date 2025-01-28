@@ -1,0 +1,31 @@
+Vendor Name,Chemical Name,Chemical Formula,CAS Number,Grade/Type,Purity,Location,Price per kg (₹),Lead Time (days),Stock Availability,Certifications,Hazard Classification,Sustainability Score,Customer Rating
+Vendor A,Sodium Chloride,NaCl,7647-14-5,Industrial Grade,99%,Mumbai,50,7,900,"ISO 9001, REACH",Non-hazardous,80,4.5
+Vendor A,Acetone,C3H6O,67-64-1,Pharmaceutical Grade,98%,Ahmedabad,125,10,500,"FDA, GMP",Flammable,65,4.2
+Vendor A,Calcium Carbonate,CaCO3,471-34-1,Food Grade,99.50%,Varanasi,75,5,1000,"ISO 9001, Kosher",Non-hazardous,90,4.8
+Vendor A,Ethanol,C2H5OH,64-17-5,Lab Grade,99.90%,Hyderabad,100,12,400,ISO 14001,Flammable,75,4.6
+Vendor A,Hydrochloric Acid,HCl,7647-01-0,Technical Grade,98.50%,Mysore,80,8,1200,"GMP, Kosher",Corrosive,70,4.3
+Vendor A,Sulfuric Acid,H2SO4,7664-93-9,Industrial Grade,98%,Nasik,70,6,2000,ISO 9001,Corrosive,85,4.7
+Vendor A,Benzene,C6H6,71-43-2,Lab Grade,99.80%,Delhi,150,14,500,FDA,Flammable,60,4.1
+Vendor A,Methanol,CH3OH,67-56-1,Technical Grade,98.20%,Jaipur,60,7,450,REACH,Toxic,78,4.4
+Vendor A,Ammonia,NH3,7664-41-7,Pharmaceutical Grade,99.70%,Chennai,90,9,600,"ISO 9001, GMP",Toxic,82,4.9
+Vendor A,Potassium Chloride,KCl,7447-40-7,Industrial Grade,98%,Kolkata,85,10,1000,ISO 14001,Non-hazardous,88,4.6
+Vendor B,Sodium Chloride,NaCl,7647-14-5,Industrial Grade,99%,Mumbai,50,7,1200,"ISO 9001, REACH",Non-hazardous,80,4.5
+Vendor B,Acetone,C3H6O,67-64-1,Pharmaceutical Grade,98%,Ahmedabad,125,10,1400,"FDA, GMP",Flammable,65,4.2
+Vendor B,Calcium Carbonate,CaCO3,471-34-1,Food Grade,99.50%,Varanasi,75,5,2000,"ISO 9001, Kosher",Non-hazardous,90,4.8
+Vendor B,Ethanol,C2H5OH,64-17-5,Lab Grade,99.90%,Hyderabad,100,12,400,ISO 14001,Flammable,75,4.6
+Vendor B,Hydrochloric Acid,HCl,7647-01-0,Technical Grade,98.50%,Mysore,80,8,700,"GMP, Kosher",Corrosive,70,4.3
+Vendor B,Sulfuric Acid,H2SO4,7664-93-9,Industrial Grade,98%,Nasik,70,6,600,ISO 9001,Corrosive,85,4.7
+Vendor B,Benzene,C6H6,71-43-2,Lab Grade,99.80%,Delhi,150,14,300,FDA,Flammable,60,4.1
+Vendor B,Methanol,CH3OH,67-56-1,Technical Grade,98.20%,Jaipur,60,7,700,REACH,Toxic,78,4.4
+Vendor B,Ammonia,NH3,7664-41-7,Pharmaceutical Grade,99.70%,Chennai,90,9,500,"ISO 9001, GMP",Toxic,82,4.9
+Vendor B,Potassium Chloride,KCl,7447-40-7,Industrial Grade,98%,Kolkata,85,10,600,ISO 14001,Non-hazardous,88,4.6
+Vendor C,Sodium Chloride,NaCl,7647-14-5,Industrial Grade,99%,Mumbai,50,7,300,"ISO 9001, REACH",Non-hazardous,80,4.5
+Vendor C,Acetone,C3H6O,67-64-1,Pharmaceutical Grade,98%,Ahmedabad,125,10,500,"FDA, GMP",Flammable,65,4.2
+Vendor C,Calcium Carbonate,CaCO3,471-34-1,Food Grade,99.50%,Varanasi,75,5,1000,"ISO 9001, Kosher",Non-hazardous,90,4.8
+Vendor C,Ethanol,C2H5OH,64-17-5,Lab Grade,99.90%,Hyderabad,100,12,2000,ISO 14001,Flammable,75,4.6
+Vendor C,Hydrochloric Acid,HCl,7647-01-0,Technical Grade,98.50%,Mysore,80,8,400,"GMP, Kosher",Corrosive,70,4.3
+Vendor C,Sulfuric Acid,H2SO4,7664-93-9,Industrial Grade,98%,Nasik,70,6,500,ISO 9001,Corrosive,85,4.7
+Vendor C,Benzene,C6H6,71-43-2,Lab Grade,99.80%,Delhi,150,14,300,FDA,Flammable,60,4.1
+Vendor C,Methanol,CH3OH,67-56-1,Technical Grade,98.20%,Jaipur,60,7,300,REACH,Toxic,78,4.4
+Vendor C,Ammonia,NH3,7664-41-7,Pharmaceutical Grade,99.70%,Chennai,90,9,400,"ISO 9001, GMP",Toxic,82,4.9
+Vendor C,Potassium Chloride,KCl,7447-40-7,Industrial Grade,98%,Kolkata,85,10,700,ISO 14001,Non-hazardous,88,4.6
