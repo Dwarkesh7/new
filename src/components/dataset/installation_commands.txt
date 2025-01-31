@@ -1,8 +1,0 @@
-# Main dependencies
-npm install react react-dom react-router-dom bootstrap firebase axios @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons xlsx react-bootstrap
-
-# Development dependencies
-npm install -D @types/react @types/react-dom @vitejs/plugin-react eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh vite
-
-# Start development server
-npm run dev 
