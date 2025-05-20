@@ -1,0 +1,84 @@
+I want to use the LLm inside my project but dont know which model should i use 
+
+I am providing some details of my project :
+Assumptions	Use Cases
+In 1 day, Bagging in 20 trucks is done by 1 Bagging plant.	Bagging Plant Asset Utilization Prediction
+Peak Days, Maximum 11 Hours of Operation Time	Reducing Truck Wait Times
+Non-Peak Days, Maximum 8 Hours of Operation Time	Day Planner that lets the Truck have X bags of Premium Quality Barley filled and Y bags of Grade 2 Barley Bags Filled
+Only 10 percent of Trucks with Mix Grade Request 	Predicting Truck Numbers for Next Days
+Around 25 Minutes of Loading Time for a Single Truck	Is there a need to increase or decrease the number of bagging plants?   
+Bagging Plant Asset is overutilized if the value > 1.5	How to distribute the Load on various Bagging Plants?
+	
+	
+	
+Stockyard Time = Entry Moving Time Duration + Wait Time + Barley Loading Time + Exit Moving Time Duration	
+	
+	"G1 - Bagging Plant B1 (takes 3 hours) - Asset Utilization in a day - Wait Time of Truck (1 hour)
+G2 - Bagging Plant B2 (takes 3 hours) - Asset Utilization in a day - Wait Time of Truck (1 hour)
+G3 - Bagging Plant B3 (takes 3 hours) - Asset Utilization in a day - Wait Time of Truck (1 hour)"
+
+ALso providing the open api key details, 
+Keep all the secured details on the .env folder
+OPENAI_API_KEY=behfekrjnjerfnrejfblfjnwiojlefnlrjfbjeflnlrenlfj
+AZURE_OPENAI_ENDPOINT=https://icxpro-proposal.openai.azure.com/
+# Azure OpenAI API key
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+AZURE_OPENAI_ENDPOINT = os.getenv('AZURE_OPENAI_ENDPOINT')
+DEPLOYMENT_NAME = "gpt-4o"
+ 
+    # Use AzureChatOpenAI instead of AzureOpenAI
+    llm = AzureChatOpenAI(
+        openai_api_key=OPENAI_API_KEY,
+        azure_endpoint=AZURE_OPENAI_ENDPOINT,
+        deployment_name="gpt-35-turbo",
+        api_version="2024-08-01-preview"
+    )
+
+
+Navigations: 
+Asset Utilization
+Premium Quality Planner
+Truck Operations
+Plant Load Management
+Stockyard Details
+Weather Forecasting
+
+Asset Utilization Tab 
+Daily Asset Utilization Bar Chart - per plant; shows under and over-utilization
+Time Series Line Chart of Asset Utilization - Tracks Asset utilization trends over time.
+Utilization vs Capacity Heatmap - Shows time-slot-specific usage by plant.
+Plant Scaling Recommendation Chart - Shows which plants are overburdened, suggesting increase/decrease.
+Asset Utilization Forecast - Predicts utilization per plant for next day (ML-driven).
+Radar Chart: Actual vs Ideal Utilization - Compares predicted vs real-time utilization.
+Premium Quality Planner
+Revenue by Grade (Stacked Bar Chart) - Helps prioritize premium grade by profitability.
+Grade Allocation Funnel Chart - Trucks entered → Grade requested → Grade filled
+Hourly Grade A1 Allocation Chart (Time Block Planner) - Visual time block: 6 am to 12 pm reserved for Grade A1. 
+Mix Grade vs Single Grade Pie Chart - Distribution breakdown to help schedule hybrid requests better.
+Decision Tree for Grade Assignment Rules - Visualizes rules like: Grade A1 only before noon.
+Gantt-style Chart for Grade Scheduling by Plant - Visual truck appointments and grade-specific blocks.
+ 
+Truck Operations
+Truck Inflow Trend Line Chart - Day-by-day truck counts for forecasting.
+Average Truck Wait Time by Stockyard (Bar Chart) - Highlights congestion or delays.
+Hourly Loading Rate Line Chart - Shows load frequency over the day.
+Truck Demand vs Capacity Line Chart - Trucks expected vs actual plant capacity per day.
+Forecasted vs Actual Truck Arrivals (Overlay Chart) - ML-driven demand prediction.
+ 
+Plant Load Management
+Bagging Plant Load Distribution Pie or Tree Map - Visual split of truck loads across all plants.
+Plant Load vs Wait Time Correlation Scatter Plot - Shows how load affects wait time per plant.
+Truck Type vs Plant Load Distribution - Helps see if specific plants are being overloaded by grade A1 or mix grade.
+Dynamic Load Reassignment Suggestion Chart (Predictive Bar or Table) - Suggests optimal load balancing.
+Plant Utilization Histogram by Shift/Hour - Helps spot overloaded time windows.
+ 
+Stockyard Details
+Stockyard Map with Real-Time Load Indicators - Location-wise visual; heatmaps for active plants.
+Stockyard Time Analysis Chart - For each truck and for each bagging plant.
+Stockyard-wise Utilization Comparison - Parallel bars for utilization across different stockyards.
+Line Distribution Summary Table/Bar Chart - Number of bagging plants/lines per stockyard.
+ 
+Weather Forecasting
+Weather Impact on Asset Utilization (Line/Bar Chart) - Correlates extreme heat or sandstorms with low utilization.
+Weather Forecast Overlay on Operation Planner (Timeline/Calendar View) - Weather blocks shown. 
+Weather Impact Prediction (Forecasted Load vs Predicted Weather) - To reschedule operations.
