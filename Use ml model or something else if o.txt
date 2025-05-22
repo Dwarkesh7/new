@@ -1,0 +1,9 @@
+Use ml model or something else if open ai key is not properly utilized 
+Alo in weather analysis tellin proper way if weater is clear ten No delays or no more wait time that should also be prescribed properly
+Use ml model so that it will take the previou data and trends and tell wat to do on next day
+Also i need a day plannerr if trucks are waiting in queue then how to manage all the bagging plantsso that the queue time will be reduced
+So how it works if 
+Grade 1 is more priority, then mix if grade 1 available then Grde 2 nd grade 3 and then mix if the mrade 1 is absent in mix 
+Also give  day planner of how should it be planned for next dates based demand for eg. 6 am to 10 pm for grade 1 ten so on , we need to reduce the que time so we can assign the unbusy bagging plant so that the overall wate time will reduce and then we will show via comparison that we reduced the wait time
+You can built the separate file for this but it should be working, also predict how many trucks will come on next day on one side based on date given 
+Think deeply and then update the file
